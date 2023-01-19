@@ -17,5 +17,5 @@ create table usuarios(
   Contraseña varchar(100) not null,
   Telefono bigint(13) not null,
   cedula int(50) not null,
-  foto longblob
+  foto varchar(300)
 );
