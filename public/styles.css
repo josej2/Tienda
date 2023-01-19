@@ -1,0 +1,357 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.cuerpo_menu {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cabecera {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  background-color: rgba(43,78,207,255);
+  align-items: center;
+}
+
+
+.cabecera h1 {
+  margin: 2% 5%;
+  font-size: 2.5em;
+  color: white;
+}
+
+.cabecera input[type=text] {
+  margin: 2.5% 3%;
+  height: 30px;
+  border-radius: 10px;
+  width: 400px;
+  padding-left: 10px;
+  font-size: 1rem;
+  font-weight: normal;
+  border: solid 1px;
+  border-color: white;
+}
+
+.cabecera input[type=text]:focus {
+  //border: solid 1px;
+  border-color: white;
+  box-shadow: 5px 5px 10px;
+  outline: 0 none;
+}
+
+
+.foto_perfil_menu {
+  position: absolute;
+  border-radius: 50px;
+  right: -20%;
+  width: 6%;
+  /*height: 12%;*/
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.contenedor_carrito {
+  width: 98%;
+  height: 80px;
+  position: fixed;
+}
+
+.contenedor_carrito div {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: solid 1px;
+  border-radius: 50px;
+  float: right;
+  display: flex;
+  margin: 0.5em 0.3em;
+  align-items: center;
+}
+
+.contenedor_carrito div:hover {
+  box-shadow: 5px 5px 20px;
+}
+
+.carrito {
+  height: 50px;
+  float: right;
+  margin: 5px;
+  margin: 0 auto;
+}
+
+.boton_carrito {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-color: white;
+  border: none;
+}
+
+
+
+
+
+/******************
+      registro
+******************/
+
+
+.contenedor_registro {
+  position: absolute;
+  margin: 0px;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+
+.caja_de_registro {
+  width: 60%;
+  height: 70%;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: rgba(43,78,207,255);
+  overflow-y: auto;
+}
+
+
+.registro {
+    padding: 3%;
+    display: grid;
+	  grid-template-columns: 50% 50%;
+	  grid-template-rows: 15% 15% 15% 15% 15% 15% 15% 15% 25% auto%;
+}
+
+.registro input {
+  margin: 2%;
+  margin-left: 15%;
+  padding-left: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: white;
+  outline: 0 none;
+  height: 25px
+}
+
+.registro button {
+  margin-top: 10%;
+  margin-left: 15%;
+  height: 70%;
+  width: 55%;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px;
+  text-align: center;
+  padding: 0 auto;
+  font-size: 80%;
+}
+
+.registro button:hover {
+  /*height: 3.1em;*/
+  box-shadow: 10px 15px 10px;
+}
+
+
+.caja_de_registro a{
+  position: relative;
+  bottom: -98%;
+  color: white;
+  font-size: 1.2em;
+  margin-left: 1%;
+}
+
+
+
+
+
+/******************
+      login
+******************/
+
+.caja_login{
+  width: 30%;
+  height: 50%;
+}
+
+.caja_login form {
+  display: grid;
+  grid-template-columns: 80%;
+}
+
+.caja_login a{
+  position: relative;
+  bottom: -28%;
+  color: white;
+  font-size: 1.2em;
+  margin-left: 15%;
+}
+
+
+
+/******************
+      perfil
+******************/
+
+
+.cabecer_perfil {
+}
+
+.foto_perfil {
+  position: absolute;
+  border-radius: 50px;
+  right: 2%;
+  width: 6%;
+  height: 12%;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.foto {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px;
+  border: solid 1px;
+  border-color: white;
+}
+
+.menu_de_opciones {
+  position: absolute;
+  right: 0.5%;
+  width: 10%;
+  height: 15%;
+  display: none;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+  align-items: center;
+  top: 0.3%;
+}
+
+.menu_de_opciones form {
+  height: 100%;
+  border: solid 0.5px;
+  border-color: white;
+}
+
+.menu_de_opciones button{
+  width: 100%;
+  height: 100%;
+  font-size: 90%;
+  word-wrap: break-word;
+  background-color: rgba(43,78,207,255);
+  color: white;
+  border: solid 0.5px;
+  border-color: white;
+}
+
+
+
+
+.opciones {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  opacity: 0.1;
+}
+
+
+.opciones:hover {
+  opacity: 0.3;
+}
+
+
+
+.contenedor_perfil {
+  position: absolute;
+  margin: 0px;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.perfil {
+  margin: 10%;
+  width: 79%;
+}
+
+.perfil h2 {
+  margin-bottom: 3%;
+}
+
+#separador_nombre_completo {
+  margin-bottom: 7%;
+}
+
+.perfil h4 {
+  display: inline;
+}
+
+
+.perfil .informacion {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+
+.perfil hr{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+.caja_de_editar {
+  position: fixed;
+  border-radius: 5px;
+  width: 75%;
+  height: 65%;
+  margin: 10%;
+  z-index: 100;
+  background-color: rgba(144, 148, 150, 0.9);
+  padding: 1%;
+  display: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.caja_de_editar input {
+  height: 90%;
+}
+
+.caja_de_editar hr {
+  opacity: 0;
+}
+
+.caja_de_editar button{
+  height: 4em;
+  border: solid 0.1px;
+  border-radius: 5px;
+  border-color: rgba(43,78,207,255);
+  background-color: rgba(43,78,207,255);
+  color: white;
+  margin-left: 75%;
+}
+
+.caja_de_editar button:hover{
+  transition: 0.5s;
+  box-shadow: 4px 4px 1px;
+}
+
+#cancelar {
+  margin-top: 1%;
+  height: 4em;
+  width: 11%;
+  word-wrap: break-word;
+}
